@@ -1,0 +1,301 @@
+body {
+ background-image: url(images/Homepage-animation_V3.gif);
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .anime{
+    margin-top: 30px;
+    width: 10%;
+    border-radius: 100%;
+  }
+
+  .typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 4s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
+  /* Navigation Bar */
+
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  header {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .html-logo{
+    
+    width: 3%;
+    border-radius: 20%;
+    margin: 10px;
+  }
+  
+  .css-logo{
+    
+    width: 5%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+
+  .js-logo{
+    width: 5%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+
+  .node-logo{
+    width: 4%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+
+  .c-logo{
+    
+    width: 3%;
+    border-radius: 100%;
+    margin-top: 10px;
+  }
+
+  .express-logo{
+    
+    width: 3%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+
+  .boot-logo{
+    width: 9%;
+    border-radius: 100%;
+    margin: 10px;
+    
+  }
+
+  .skills-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Projects Section */
+.tindog{
+  margin-top: 42px;
+    width: 22%;
+    border-radius: 100%;
+
+}
+.Drum{
+  margin-top: 10px;
+    width: 15%;
+    border-radius: 100%;
+
+}
+
+.pro-jects{
+  margin-bottom: 50px;
+}
+
+.git-hub{
+  margin-top: 10px;
+    width:5%;
+    border-radius: 20%;
+
+}
+
+.insta-hub{
+  margin-top: 10px;
+  margin-left: 70px;
+    width:12%;
+    border-radius: 20%;
+
+}
+
+.linked-hub{
+  margin-top: 10px;
+  margin-left: 300px;
+    width:5%;
+    border-radius: 20%;
+
+}
+
+.sm-hub{
+  margin-top: 10px;
+  margin-left: 40px;
+  width:12%;
+  border-radius: 20%;
+}
+
+.arrow-1{
+  margin-top: 2px;
+  width:12%;
+  rotate: 90deg;
+  }
+
+  .arrow-2{
+    margin-top: 2px;
+    width:12%;
+    rotate: 90deg;
+    
+  
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  #projects {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: block;
+    margin-top: 10px;
+  }
+
+  #achievements{
+    text-align: center;
+    
+  }
+
+  .cji{
+    margin-top: 20px;
+    width:48%;
+   
+    
+
+  }
+
+  .cji-i{
+    margin-top: 10px;
+    width:45%;
+   
+    
+    }
+
+    .cji-k{
+      margin-top: 10px;
+      width:48%;
+     
+      
+      }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  #contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
